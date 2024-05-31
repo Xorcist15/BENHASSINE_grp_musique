@@ -1,0 +1,40 @@
+.navbar-brand {
+    font-family: Kanit;
+    font-size: 28px;
+    color: #f08;
+}
+
+.navbar-nav .nav-link {
+    font-family: Kanit;
+    font-size: 20px;
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f08;
+}
+
+.dropdown-menu {
+    background-color: #000;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #f08;
+    color: #000;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+}
+
+.navbar-toggler {
+    background-color: white;
+}

@@ -1,0 +1,14 @@
+/*stylesheet générale, s'applique à toutes les pages*/
+
+@font-face {
+    font-family: Kanit;
+    src: url('../fonts/Kanit-Regular.ttf');
+}
+
+body {
+    background-image: url('../images/pink-floyed-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Kanit;
+}

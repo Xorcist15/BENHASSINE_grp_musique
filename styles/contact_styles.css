@@ -1,0 +1,30 @@
+body h2{
+    color: #f08;
+}
+
+body{
+    color: white;
+    font-family: Kanit;
+}
+.div_form{
+
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px
+}
+.div_form *{
+    margin: 10px;
+}
+
+.submitBtn {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+.form-control{
+    color: white;
+}

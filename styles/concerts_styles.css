@@ -1,0 +1,43 @@
+:root {
+    --pink-color: #f08; 
+  }
+  
+  .timeline-date{
+    color: var(--pink-color);
+    margin-bottom: 20px;
+  }
+
+.concert_container {
+  width: 100%;
+  max-width:450px;
+  margin: 30px auto;
+  position: relative;
+  padding: 10px;
+  background: #1d1818;
+  color: white;
+  border-radius: 8px;
+}
+
+.concert_container p {
+  color: white;
+}
+
+body{
+  font-family: Kanit;
+}
+
+/* affichage spécial pour les petits écrans */
+@media (max-width: 550px) {
+  .concert_container {
+    max-width: 80%;
+    margin: 20px auto;
+  }
+}
+
+.concert_container img {
+  width: 400px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

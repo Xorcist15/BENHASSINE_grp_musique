@@ -1,0 +1,32 @@
+footer {
+    background-color: #000000;
+    color: #f08;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section{
+    margin: 40px;
+}
+
+body{
+    color: white;
+}
+
+a {
+    color: #f08;
+    text-decoration: none;
+}
+article ul li {
+    list-style: none;
+    border: 2px solid white;
+    margin: 10px auto;
+    border-radius: 20px;
+    text-align: center;
+    width: 60%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.807);
+}

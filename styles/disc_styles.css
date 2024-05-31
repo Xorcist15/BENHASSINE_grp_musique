@@ -1,0 +1,47 @@
+  :root {
+    --pink-color: #f08; 
+  }
+  
+  .timeline-date{
+    color: var(--pink-color);
+    margin-bottom: 20px;
+  }
+
+.disco {
+  width: 100%;
+  max-width:250px;
+  margin: 30px auto;
+  position: relative;
+  padding: 10px;
+  background: #1d1818;
+  color: white;
+  border-radius: 8px;
+}
+
+.disco a{
+  text-decoration: none;
+}
+
+.disco a p {
+  color: white;
+}
+
+body{
+  font-family: Kanit;
+}
+
+/* affichage spécial pour les petits écrans */
+@media (max-width: 550px) {
+  .disco {
+    max-width: 70%; /* Reduce the maximum width for smaller screens */
+    margin: 20px auto; /* Adjust the margin for smaller screens */
+  }
+}
+
+.disco img {
+  height: 200px;
+  margin: 0 auto; /* Center the image horizontally */
+  display: block;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
