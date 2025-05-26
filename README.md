@@ -14,7 +14,6 @@ Il s'agit d'un site vitrine simple dédié à mon groupe de musique préféré :
 * Page d’accueil avec une brève présentation du groupe
 * Galerie d’albums emblématiques
 * Biographie des membres
-* Quelques clips/vidéos intégrés
 * Design sobre et responsive
 
 ## Technologies utilisées
@@ -43,7 +42,3 @@ python -m http.server
 
 Projet simple, non connecté à une base de données.
 Fait principalement pour apprendre à structurer un site statique.
-
----
-
-Tu peux ajouter une capture d'écran ou un lien si tu l’as hébergé en ligne. Tu veux que je le reformule pour un CV ou une page portfolio ?
